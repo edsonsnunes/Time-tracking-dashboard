@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;1,400;1,500&display=swap");
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Rubik", sans-serif;
+}
+.laranja {
+  background-color: hsl(15, 100%, 70%);
+}
+.azul {
+  background-color: hsl(195, 74%, 62%);
+}
+.vermelho {
+  background-color: hsl(348, 100%, 68%);
+}
+.verde {
+  background-color: hsl(145, 58%, 55%);
+}
+.verde img {
+  padding-top: 1px;
+}
+.violeta {
+  background-color: hsl(264, 64%, 52%);
+}
+.amarelo {
+  background-color: hsl(43, 84%, 65%);
+}
+
+@media (max-width: 890px) {
+  .conteudo {
+    background-color: hsl(226, 43%, 10%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Rubik", sans-serif;
+  }
+  .report {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    max-width: 335px;
+  }
+  .header {
+    width: 81vw;
+    background-color: hsl(246, 80%, 60%);
+    border-radius: 10px;
+    height: 180%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    z-index: 1;
+  }
+  .titulo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .report-titulo {
+    font-size: 14px;
+    color: hsl(236, 100%, 87%);
+  }
+  .jeremy-titulo {
+    font-size: 21px;
+  }
+  .atividades {
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 0px 0px 10px 10px;
+    font-family: "Rubik", sans-serif;
+    height: 12%;
+    display: flex;
+    padding-bottom: 16px;
+    position: relative;
+    bottom: 8px;
+    color: hsl(236, 100%, 87%);
+    max-width: 335px;
+  }
+  .atividade {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 24px 2px 3px 2px;
+  }
+  .atividade span {
+    cursor: pointer;
+  }
+  .atividade :hover {
+    color: white;
+  }
+  .profile-picture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .profile-picture img {
+    width: 50%;
+    border: 3px solid;
+    border-radius: 50%;
+  }
+  .card {
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 10px;
+    display: flex;
+    font-family: "Rubik", sans-serif;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 14%;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 12px;
+    padding: 25px 0px 20px 0px;
+    max-width: 335px;
+  }
+  .card-cabecalho {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+  }
+  .card-detalhes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1.7vh;
+  }
+  .dots {
+    position: relative;
+    bottom: 1vh;
+  }
+  .card-horas {
+    font-size: 24px;
+    font-weight: 300;
+    font-family: "Rubik", sans-serif;
+  }
+  .card-fundo {
+    height: 50px;
+    border-radius: 12px;
+    position: relative;
+    bottom: -17px;
+    max-width: 335px;
+  }
+  .card-fundo img {
+    float: right;
+    padding-right: 4%;
+    position: relative;
+    width: 19%;
+    height: 98%;
+  }
+  .grid {
+    position: relative;
+  }
+  .card-titulo {
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .card-detalhes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .card-previus {
+    font-size: 14px;
+    color: hsl(236, 100%, 87%);
+  }
+}
+@media (min-width: 890px) {
+  .conteudo {
+    background-color: hsl(226, 43%, 10%);
+    color: white;
+  }
+  .profile-picture img {
+    width: 65px;
+    border: 2px solid white;
+    border-radius: 34px;
+    margin-left: 17px;
+    margin-top: 15px;
+  }
+  .report {
+    width: 100%;
+    background: hsl(246, 80%, 60%);
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+    z-index: 1;
+    height: 250px;
+    top: 35px;
+  }
+  .report-titulo {
+    font-size: 12px;
+    color: hsl(236, 100%, 87%);
+  }
+  .titulo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+  .jeremy-titulo {
+    font-size: 34px;
+  }
+  .atividade {
+    width: 100%;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 0px 0px 12px 12px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 43px;
+    position: relative;
+    cursor: pointer;
+  }
+  .atividade span {
+    margin-left: 13px;
+    font-size: 13px;
+    padding-top: 24px;
+    color: hsl(236, 100%, 87%);
+    position: relative;
+    top: 36px;
+    cursor: pointer;
+  }
+  .atividades {
+    position: relative;
+    bottom: 16px;
+  }
+  .atividade :hover {
+    color: white;
+  }
+  .card {
+    background-color: hsl(235, 46%, 20%);
+    position: relative;
+    border-radius: 10px;
+  }
+  .card-titulo {
+    padding-top: 17px;
+    margin-left: 15px;
+    font-size: 17px;
+    font-weight: bolder;
+  }
+  .card-horas {
+    font-size: 39px;
+    margin: 9px;
+  }
+  .card-detalhes {
+    padding-bottom: 10px;
+  }
+  .card-fundo {
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+    top: 19px;
+    height: 6vh;
+  }
+  .card-fundo img {
+    float: right;
+    width: 30%;
+    height: 83%;
+    padding-right: 12px;
+    padding-top: 1px;
+  }
+  .card-previus {
+    font-size: 11px;
+    display: flex;
+    padding-bottom: 4px;
+    position: relative;
+    left: 13px;
+    bottom: 8px;
+    color: hsl(236, 100%, 87%);
+  }
+  .text-dots {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 76px;
+    right: 18px;
+  }
+  .grid-cards {
+    display: grid;
+    grid-template-areas:
+      "grid-1 grid-2 grid-3 grid-4"
+      "grid-1 grid-5 grid-6 grid-7";
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: repeat(2, 199px);
+    grid-column-gap: 20px;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+  .display-desk {
+    height: 100vh;
+  }
+  .grid-1 {
+    grid-area: grid-1;
+  }
+  .grid-2 {
+    grid-area: grid-2;
+  }
+  .grid-3 {
+    grid-area: grid-3;
+  }
+  .grid-4 {
+    grid-area: grid-4;
+  }
+  .grid-5 {
+    grid-area: grid-5;
+  }
+  .grid-6 {
+    grid-area: grid-6;
+  }
+  .grid-7 {
+    grid-area: grid-7;
+  }
+}

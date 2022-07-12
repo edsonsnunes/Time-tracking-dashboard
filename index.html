@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="conteudo">
+    <div class="display-desk">
+      <section class="grid-cards">
+        <div class="grid grid-1">
+          <div class="report">
+            <div class="header">
+              <div class="profile-picture">
+                <img src="images/image-jeremy.png" alt="">
+              </div>
+              <div class="titulo">
+                <span class="report-titulo">Report for</span>
+                <span class="jeremy-titulo">Jeremy Robson</span>
+              </div>
+            </div>
+          </div>
+          <div class="atividades grid-1">
+            <div class="atividade">
+              <span id="daily">Daily</span>
+              <span id="weekly">Weekly</span>
+              <span id="monthly">Monthly</span>
+            </div>
+          </div>
+        </div>
+        <div class="grid grid-2">
+          <div class="card-fundo laranja">
+            <img src="images/icon-work.svg" alt="">
+          </div>
+          <div class="card">
+            <div class="card-cabecalho">
+              <div class="card-titulo">Work</div>
+              <div class="card-horas" id="work-horas">32hrs</div>
+            </div>
+            <div class="card-detalhes">
+              <div class="text-dots"><img src="images/icon-ellipsis.svg" alt=""></div>
+              <div class="card-previus" id="card-previus">Last Week - 36hrs </div>
+            </div>
+          </div>
+        </div>
+        <div class=" grid grid-3">
+          <div class="card-fundo azul">
+            <img src="images/icon-play.svg" alt="">
+          </div>
+          <div class="card">
+            <div class="card-cabecalho">
+              <div class="card-titulo"> Play</div>
+              <div class="card-horas" id="play-horas">10hrs</div>
+            </div>
+            <div class="card-detalhes">
+              <div class="text-dots"><img src="images/icon-ellipsis.svg" alt=""></div>
+              <div class="card-previus" id="play-previus">Last Week - 8hrs </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid grid-4">
+          <div class="card-fundo vermelho">
+
+            <img src="images/icon-study.svg" alt="">
+
+          </div>
+          <div class="study card">
+            <div class="card-cabecalho">
+              <div class="card-titulo">Study</div>
+              <div class="card-horas" id="study-horas"> 4hrs</div>
+            </div>
+            <div class="card-detalhes">
+              <div class="text-dots"><img src="images/icon-ellipsis.svg" alt=""></div>
+              <div class="card-previus" id="study-previus">Last Week - 7hrs </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid grid-5">
+          <div class="card-fundo verde">
+            <img src="images/icon-exercise.svg" alt="">
+          </div>
+          <div class="exercice card">
+            <div class="card-cabecalho">
+              <div class="card-titulo"> Exercise</div>
+              <div class="card-horas" id="exercise-horas">4hrs</div>
+            </div>
+            <div class="card-detalhes">
+              <div class="text-dots"><img src="images/icon-ellipsis.svg" alt=""></div>
+              <div class="card-previus" id="exercise-previus">Last Week - 5hrs </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid grid-6">
+          <div class="card-fundo violeta">
+            <img src="images/icon-social.svg" alt="">
+          </div>
+          <div class="card">
+            <div class="card-cabecalho">
+              <div class="card-titulo">Social</div>
+              <div class="card-horas" id="social-horas">5hrs</div>
+            </div>
+            <div class="card-detalhes">
+              <div class="text-dots"><img src="images/icon-ellipsis.svg" alt=""></div>
+              <div class="card-previus" id="social-previus">Last Week - 10hrs </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid grid-7">
+          <div class="card-fundo amarelo">
+            <img src="images/icon-self-care.svg" alt="">
+          </div>
+          <div class="card">
+            <div class="card-cabecalho">
+              <div class="card-titulo">Self Care</div>
+              <div class="card-horas" id="self-horas">2hrs</div>
+            </div>
+            <div class="card-detalhes">
+              <div class="text-dots"><img src="images/icon-ellipsis.svg" alt=""></div>
+              <div class="card-previus" id="self-previus">Last Week - 2hrs </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <script type="module" src="script.js"></script>
+</body>
+
+</html>
